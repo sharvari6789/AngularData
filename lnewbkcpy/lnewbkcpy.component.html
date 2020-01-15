@@ -1,0 +1,30 @@
+<body>
+    <div >
+    <form  (ngSubmit)="Update()">
+        <legend>Enter new Book Copy details</legend>
+    
+        <div class="form-group">
+            <label for="Uname">Book ID</label>
+            <input type="text" class="form-control" name="Uname" id="Uname" placeholder="Uname" [(ngModel)]="userdetail.uname">
+        </div>
+    
+        <div class="form-group">
+            <label for="email">Rack number</label>
+            <input type="text" class="form-control" name="password" id="password" placeholder="Uname" [(ngModel)]="userdetail.password">
+        </div>
+    
+    
+        <div id="div2">
+        <button type="submit" class="btn btn-primary">Add</button>
+    
+        <br>
+    
+        <span class="label label-danger">{{msg}}</span>
+        </div>
+    </form>
+    </div>
+    </body>
+    
+    
+    
+

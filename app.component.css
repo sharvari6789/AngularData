@@ -1,0 +1,15 @@
+#div2
+{
+    text-align: center;
+    font-size:larger;
+    align-items: center;
+}
+
+#div1
+{
+    margin: auto;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    width:40%;
+}

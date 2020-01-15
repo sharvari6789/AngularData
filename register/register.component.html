@@ -1,0 +1,50 @@
+<div id="div1">
+<form  (ngSubmit)="Insert()">
+    <legend>Register User</legend>
+    <div class="form-group">
+            <label for="fname">First Name</label>
+            <input type="text" class="form-control" name="fname" id="fname" placeholder="Enter First Name">
+        </div>
+
+
+    <div class="form-group">
+            <label for="lname">Last Name</label>
+            <input type="text" class="form-control" name="lname" id="lname" placeholder="Enter Last Name">
+        </div>
+
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" name="email" id="email" placeholder="Enter Email">
+    </div>
+
+        <div class="form-group">
+                <label for="cno">Contact Number</label>
+                <input type="number" class="form-control" name="cno" id="cno" placeholder="Enter Contact No" [(ngModel)]="emp.No">
+            </div>
+
+    <div class="form-group">
+            <label for="Name">Date Of Birth</label>
+            <input type="date" class="form-control" name="Name" id="Name" placeholder="Enter name">
+    </div>
+
+    <div class="form-group">
+                <label for="Age">Gender</label>&nbsp;&nbsp;
+                <input type="radio" name="gender" id="male">Male &nbsp;
+                <input type="radio"  name="gender" id="female">Female
+    </div>
+
+    <div class="form-group">
+            <label for="cno">Password</label>
+            <input type="password" class="form-control" name="pwd" id="pwd" placeholder="Enter Password">
+        </div>
+        <div class="form-group">
+                <label for="cno">Confirm Password</label>
+                <input type="password" class="form-control" name="cpwd" id="cpwd" placeholder="Reenter Password">
+            </div>
+    
+    <div id="div2">
+        <button type="submit" class="btn btn-primary">Add</button>
+    </div>
+</form>
+</div>
+

@@ -1,0 +1,22 @@
+<body>
+    <div >
+    <form  (ngSubmit)="Update()">
+        <legend>Check book availability</legend>
+    
+        <div class="form-group">
+            <label for="email">Book id</label>
+            <input type="text" class="form-control" name="password" id="password" placeholder="Uname" [(ngModel)]="userdetail.password">
+        </div>
+    
+        <div id="div2">
+        <button type="submit">Show result</button>&nbsp;&nbsp;
+        <br>
+    
+        <span class="label label-danger">{{msg}}</span>
+        </div>
+    </form>
+    </div>
+    </body>
+    
+    
+    

@@ -1,0 +1,27 @@
+<body>
+<div >
+<form  (ngSubmit)="SignIn()">
+    <legend>Login here</legend>
+
+    <div class="form-group">
+        <label for="Uname">User name</label>
+        <input type="text" class="form-control" name="Uname" id="Uname" placeholder="Uname" [(ngModel)]="userdetail.uname">
+    </div>
+
+    <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" class="form-control" name="password" id="password" placeholder="Uname" [(ngModel)]="userdetail.password">
+    </div>
+
+    <div id="div2">
+    <button type="submit" class="btn btn-primary">Login</button>
+
+    <br>
+
+    <span class="label label-danger">{{msg}}</span>
+    </div>
+</form>
+</div>
+</body>
+
+
